@@ -5,6 +5,7 @@ import Team from "./Components/Team/Team";
 import Projects from "./Components/Projects/Projects";
 import Join from "./Components/Join/Join";
 import Contact from "./Components/Contact/Contacts";
+import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
