@@ -121,6 +121,14 @@ const Navbar = () => {
                       Join→
                     </Link>
                   </button>
+                  <button className="bg-blue-500 rounded-md">
+                    <Link
+                      to="/sample"
+                      className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-4 text-lg"
+                    >
+                      sample
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>

@@ -1,10 +1,10 @@
-import Navbar from "./Components/Navbar";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Team from "./Components/Team/Team";
-import Projects from "./Components/Projects/Projects";
-import Join from "./Components/Join/Join";
-import Contact from "./Components/Contact/Contacts";
+import Navbar from "./Components/Navbar.js";
+import Home from "./Components/Home/Home.js";
+import About from "./Components/About/About.js";
+import Team from "./Components/Team/Team.js";
+import Projects from "./Components/Projects/Projects.js";
+import Join from "./Components/Join/Join.js";
+import Contact from "./Components/Contact/Contacts.js";
 import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -31,6 +31,9 @@ function App() {
         </Routes>
         <Routes>
           <Route exact path="/join" element={<Join />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/sample" element={<Join />} />
         </Routes>
       </div>
     </Router>
