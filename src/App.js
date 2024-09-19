@@ -32,9 +32,6 @@ function App() {
         <Routes>
           <Route exact path="/join" element={<Join />} />
         </Routes>
-        <Routes>
-          <Route exact path="/sample" element={<Join />} />
-        </Routes>
       </div>
     </Router>
   );
