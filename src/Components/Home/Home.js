@@ -8,7 +8,7 @@ const Home = () => {
         {/* First quarter - Logo */}
         <div className="h-1/4 w-full bg-gray-100">
           <img 
-            src="/btc_logo.png" 
+            src="/BingTcExtended.jpg" 
             alt="BTC Logo" 
             className="w-full h-full object-contain object-center"
           />
