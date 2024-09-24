@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <>
+    <> 
             <div className="h-screen flex flex-col">
-            <div className="h-64 sm:h-80 md:h-96 lg:h-112 py-4 pt-16 w-full bg-gray-100 relative z-0">
-        <img
-            src="/BingTcExtended.jpg"
-            alt="BTC Logo"
-            className="w-full h-full object-cover object-center"
-        />
+            <div className="h-64 sm:h-80 md:h-96 lg:h-96 py-4 pt-16 w-full bg-gray-100 relative z-0 overflow-hidden">
+    <img
+        src="/BingTcExtended.jpg"
+        alt="BTC Logo"
+        className="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out transform scale-100 sm:scale-110 md:scale-125 lg:scale-125"
+    />
 </div>
         <div className="py-8 bg-gray-100">
               <div className="container mx-auto px-4 flex flex-col md:flex-row">
