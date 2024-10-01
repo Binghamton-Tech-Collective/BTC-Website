@@ -1,0 +1,74 @@
+{
+    "teams" : [
+        {
+            "team_name" : "Software Team",
+            "members" : [
+                {
+                    "name" : "Levi Lesches",
+                    "role" : "Team Lead",
+                    "email" : "llesches@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "Pushkar Kaswankar",
+                    "role" : "Team Lead",
+                    "email" : "pkaswankar@binghamton.edu",
+                    "contact_no" : "+1 6072968114"
+                },
+                {
+                    "name" : "Harsh Vaghani",
+                    "role" : "Software Engineer",
+                    "email" : "hvaghani@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "Samuel Montes",
+                    "role" : "Software Engineer",
+                    "email" : "smontes@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "Michael F",
+                    "role" : "Software Engineer",
+                    "email" : "example@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "Gabriel",
+                    "role" : "Software Engineer",
+                    "email" : "example@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "Obie Smolenski",
+                    "role" : "Software Engineer",
+                    "email" : "example@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                }
+            ]
+        },
+        {
+            "team" : "UX/UI",
+            "members" : [
+                {
+                    "name" : "ABC",
+                    "role" : "UI/UX",
+                    "email" : "example@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "PQR",
+                    "role" : "UI/UX",
+                    "email" : "example@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                },
+                {
+                    "name" : "XYZ",
+                    "role" : "UI/UX",
+                    "email" : "example@binghamton.edu",
+                    "contact_no" : "+1 123456789"
+                }
+            ]
+        }
+    ]
+}
