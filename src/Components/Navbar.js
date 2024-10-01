@@ -89,6 +89,13 @@ const Navbar = () => {
               <div className="hidden sm:flex sm:ml-6">
                 <div className="flex space-x-4">
                   {/* Navigation Links */}
+
+                  <Link
+                    to="/"
+                    className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-3"
+                  >
+                    Home
+                  </Link>
                   <Link
                     to="/about"
                     className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md py-1 px-5 font-small text-lg"
@@ -129,6 +136,8 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         <motion.div
+
+    
           initial="closed"
           animate={isOpen ? "open" : "closed"}
           variants={hamburgerMotion}
@@ -136,6 +145,12 @@ const Navbar = () => {
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
+            <Link
+              to="/"
+              className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-5 text-lg"
+            >
+              Home
+            </Link>
             <Link
               to="/about"
               className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-3"
