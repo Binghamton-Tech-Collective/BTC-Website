@@ -90,8 +90,14 @@ const Navbar = () => {
                 <div className="flex space-x-4">
                   {/* Navigation Links */}
                   <Link
+                    to="/"
+                    className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-5 text-lg"
+                  >
+                    Home
+                  </Link>
+                  <Link
                     to="/about"
-                    className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md py-1 px-5 font-small text-lg"
+                    className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-5 text-lg"
                   >
                     About
                   </Link>
@@ -116,7 +122,7 @@ const Navbar = () => {
                   <button className="bg-blue-500 rounded-md">
                     <Link
                       to="/join"
-                      className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-4 text-lg"
+                      className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-5 text-lg"
                     >
                       Join→
                     </Link>
@@ -136,6 +142,12 @@ const Navbar = () => {
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
+          <Link
+              to="/"
+              className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-3"
+            >
+              Home
+            </Link>
             <Link
               to="/about"
               className="flex items-center text-md text-white hover:bg-custom-drk-green hover:text-white rounded-md font-small py-1 px-3"
