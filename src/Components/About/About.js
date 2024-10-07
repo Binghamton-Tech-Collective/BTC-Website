@@ -1,10 +1,11 @@
 import React from "react";
+import BTCMembers from "./BTCMembers.js";
 
 const About = () => {
   return (
     <>
-      <div className="h-screen items-center flex justify-center text-4xl text-gray-400 bg-custom-green">
-        <h1>About</h1>
+      <div className="h-screen flex bg-custom-green">
+        <BTCMembers />
       </div>
     </>
   );
