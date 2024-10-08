@@ -1,11 +1,11 @@
 import React from "react";
-import FirstTwoSections from './FirstTwoSections.js'
+import MissionOverview from './MissionOverview.js'
 
 const About = () => {
   return (
     <>
       <div className="h-screen">
-        <FirstTwoSections />
+        <MissionOverview />
       </div>
     </>
   );
