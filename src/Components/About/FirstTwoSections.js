@@ -15,7 +15,7 @@ const About = () => {
           <div className="container mx-auto px-4 flex flex-col md:flex-row">
             <div className="w-full md:w-3/5 md:pr-12 mb-6 md:mb-0">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">
-                About Us
+                Our Mission
               </h2>
               <p className="text-gray-700 mb-6 text-base md:text-lg">
                 Mission Statement
