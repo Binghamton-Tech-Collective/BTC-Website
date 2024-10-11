@@ -58,7 +58,7 @@ const Home = () => {
         <div className="bg-custom-green flex flex-row">
           <iframe
             title="survey"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSd0RL42AHTrJjDx6tKFpGYcIE5cg2e__42jKuXYB-3AeYQDKw/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdr1Tt2jMud5i1TzNTh6p_GyAGLtadtrD3eIy-nkBGNFxseUQ/viewform?embedded=true"
             width="100%"
             height="850"
             style={{ border: "none", margin: 0, padding: 0 }}
