@@ -4,14 +4,12 @@ import { Link } from "react-router-dom";
 const GetConnected = () => {
   return (
     <div className="h-screen flex flex-col justify-start">
-      <div className="bg-custom-green relative flex md:flex-row">
-        <div className="md:h-80 h-60">
-          <img
-            src="/btc_background.png"
-            alt="BTC Background"
-            className="justify-start"
-          ></img>
-        </div>
+      <div className="bg-custom-green flex md:flex-row relative">
+        <img
+          src="/btc_background.png"
+          alt="BTC Background"
+          className="md:h-64 md:w-70 justify-start md:inline-block h-60"
+        ></img>
         <div className="py-8">
           <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white text-left md:text-center">
             Get Connected!
