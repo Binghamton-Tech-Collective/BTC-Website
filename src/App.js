@@ -2,7 +2,7 @@ import Navbar from "./Components/Navbar.js";
 import Home from "./Components/Home/Home.js";
 import About from "./Components/About/About.js";
 import Team from "./Components/Team/Team.js";
-import Projects from "./Components/Projects/Projects.js";
+import Project from "./Components/Projects/Project.js";
 import Join from "./Components/Join/Join.js";
 import Contact from "./Components/Contact/Contacts.js";
 import React from "react";
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
         </Routes>
         <Routes>
-          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/projects" element={<Project />} />
         </Routes>
         <Routes>
           <Route exact path="/teams" element={<Team />} />
