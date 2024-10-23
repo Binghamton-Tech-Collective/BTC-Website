@@ -23,9 +23,14 @@ const MainContent = () => {
           </span>
         </div>
         <img
-          src="/btc_team.jpg"
-          alt="Our Team"
-          className="relative top-5 w-full h-auto ml-auto px-5 md:min-w-96 md:top-10 md:h-auto md:pr-5"
+          src="/shop_bing_signup_page.jpg"
+          alt="Sign Up"
+          className="relative top-5 mx-auto pb-5 w-60 max-h-96 md:top-10 md:pr-5 md:max-w-96 md:max-h-96"
+        />
+        <img
+          src="/shop_bing_home_page.jpg"
+          alt="Home Page"
+          className="relative top-5 mx-auto pb-5 w-60 max-h-96 md:top-10 md:pr-5 md:max-w-96 md:max-h-96"
         />
       </div>
       <div className="relative top-10 flex flex-row px-5 md:flex md:flex-row md:pl-16 md:py-10">
