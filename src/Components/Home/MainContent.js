@@ -11,9 +11,9 @@ const MainContent = () => {
           className="absolute inset-0 top-16 h-52 z-0 inline-block md:h-60 md:top-20"
         ></img>
 
-        <div className="container mx-auto px-2 relative md:flex md:flex-row md:relative">
-          <div className="w-full relative z-10 md:w-3/5 md:relative lg:w-full">
-            <div className="relative pl-4 flex flex-col pt-4 md:relative md:pb-8 md:pt-4">
+        <div className="container mx-auto px-2 relative md:flex md:flex-row">
+          <div className="w-full relative z-10 md:w-3/5">
+            <div className="relative pl-4 pr-4 flex flex-col pt-4 md:pb-8 md:pt-4">
               <h2 className="text-3xl font-bold text-black md:inline-block md:text-4xl md:pb-5">
                 About Us
               </h2>
@@ -61,7 +61,7 @@ const MainContent = () => {
           />
         </div>
         <div className="w-full relative z-10 md:w-3/5">
-          <div className="relative pl-4 flex flex-col pt-4 md:pb-8 md:pt-4">
+          <div className="relative pl-4 pr-4 flex flex-col pt-4 md:pb-8 md:pt-4">
             <h2 className="text-3xl font-bold text-black md:inline-block md:text-4xl md:pb-5">
               Our Projects
             </h2>
