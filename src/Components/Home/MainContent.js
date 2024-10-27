@@ -45,7 +45,7 @@ const MainContent = () => {
       <div className="container bg-custom-green relative min-h-96 py-5 md:p-6 md:min-h-full">
         <iframe
           title="Survey Form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdr1Tt2jMud5i1TzNTh6p_GyAGLtadtrD3eIy-nkBGNFxseUQ/viewform?embedded=true"
+          src="https://forms.gle/CSzHup2Nx89uHv6E7"
           className="min-w-full min-h-96 md:h-full"
         >
           Loading…
