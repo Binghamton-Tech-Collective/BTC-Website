@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const GetConnected = () => {
   return (
     <div className="bg-custom-green flex flex-row sm:pt-20 pt-0">
-      <div className="pt-10 z-0 absolute md:relative md:pt-0">
+      <div className="pt-0 z-0 absolute md:relative md:pt-0">
         <img
           src="/btc_background.png"
           alt="BTC Background"
@@ -16,12 +16,7 @@ const GetConnected = () => {
           Get Connected!
         </h1>
         <span className="text-white text-sm md:text-lg lg:text-2xl">
-          Welcome to the Binghamton Tech Collective, a community of tech
-          enthusiasts, developers, and innovators. We are dedicated to
-          fostering a collaborative environment where individuals can learn,
-          grow, and contribute to the tech community. Our mission is to create
-          innovative products that positively impact the students at
-          Binghamton University.
+          Coming Soon...
         </span>
         <div className="flex justify-center items-center pt-10 md:pb-5">
         <Link

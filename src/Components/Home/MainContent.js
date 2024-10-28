@@ -66,12 +66,7 @@ const MainContent = () => {
               Our Projects
             </h2>
             <span className="text-gray-700 mb-6 text-base md:text-lg md:inline-block">
-              Welcome to the Binghamton Tech Collective, a community of tech
-              enthusiasts, developers, and innovators. We are dedicated to
-              fostering a collaborative environment where individuals can learn,
-              grow, and contribute to the tech community. Our mission is to
-              create innovative products that positively impact the students at
-              Binghamton University.
+              Coming Soon...
             </span>
             <Link
               to="/join"

@@ -15,12 +15,7 @@ const ProjectHeader = () => {
           Our Projects
         </h2>
         <p className="text-white text-md md:text-lg lg:text-2xl">
-          Welcome to the Binghamton Tech Collective, a community of tech
-          enthusiasts, developers, and innovators. We are dedicated to
-          fostering a collaborative environment where individuals can learn,
-          grow, and contribute to the tech community. Our mission is to create
-          innovative products that positively impact the students at
-          Binghamton University.
+          Coming Soon...
         </p>
       </div>
     </div>
