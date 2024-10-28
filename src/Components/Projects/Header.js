@@ -7,7 +7,7 @@ const ProjectHeader = () => {
         <img
           src="/btc_element.png"
           alt="BTC Element Logo"
-          className="pt-40 z-0 absolute md:pt-20 lg:w-full lg:pt-20 lg:h-96 xl:h-80"
+          className="pt-20 z-0 absolute md:pt-20 lg:w-full lg:pt-0 lg:h-96 xl:h-80"
         ></img>
       </div>
       <div className="z-10 inset-0 flex flex-col px-5 py-20 md:px-5 lg:px-10">

@@ -11,8 +11,8 @@ const MainContent = () => {
           className="absolute inset-0 top-16 h-52 z-0 inline-block md:h-60 md:top-20"
         ></img>
 
-        <div className="container mx-auto px-2 relative md:flex md:flex-row">
-          <div className="w-full relative z-10 md:w-3/5">
+        <div className="translate-x-2 relative md:flex md:flex-row">
+          <div className="w-full relative z-10 md:w-1/2">
             <div className="relative pl-4 pr-4 flex flex-col pt-4 md:pb-8 md:pt-4">
               <h2 className="text-3xl font-bold text-black md:inline-block md:text-4xl md:pb-5">
                 About Us
@@ -33,16 +33,16 @@ const MainContent = () => {
               </Link>
             </div>
           </div>
-          <div className="pt-8 relative md:top-2">
+          <div className="pt-8 relative md:top-2 flex md:w-1/2 md:justify-end">
             <img
               src="/btc_team.jpg"
               alt="Our Team"
-              className="w-11/12 h-auto inline-block pl-4 mb-8 md:h-96"
+              className="w-11/12 h-auto inline-block pl-4 mb-8 md:h-96 md:-translate-x-7 lg:w-2/3"
             />
           </div>
         </div>
       </div>
-      <div className="container bg-custom-green relative min-h-96 py-5 md:p-6 md:min-h-full">
+      <div className="bg-custom-green relative min-h-96 py-5 md:p-6 md:min-h-full">
         <iframe
           title="Survey Form"
           src="https://forms.gle/CSzHup2Nx89uHv6E7"
@@ -52,15 +52,15 @@ const MainContent = () => {
         </iframe>
       </div>
 
-      <div className="container mx-auto px-2 relative md:flex md:flex-row">
-        <div className="pt-8 relative md:top-2">
+      <div className="translate-x-2 relative md:flex md:flex-row">
+        <div className="pt-8 relative md:top-2 md:w-1/2 md:flex md:flex-end lg:w-2/5">
           <img
             src="/btc_team.jpg"
             alt="Our Team"
-            className="w-11/12 h-auto inline-block pl-4  mb-8 md:h-96"
+            className="w-11/12 h-auto inline-block pl-4 mb-8 md:h-96"
           />
         </div>
-        <div className="w-full relative z-10 md:w-3/5">
+        <div className="w-full relative z-10 md:w-1/2">
           <div className="relative pl-4 pr-4 flex flex-col pt-4 md:pb-8 md:pt-4">
             <h2 className="text-3xl font-bold text-black md:inline-block md:text-4xl md:pb-5">
               Our Projects
