@@ -1,11 +1,17 @@
 import React from 'react';
-import { teamData } from '../../data/team.js'; // Importing the structured team data
+import { teamData } from '../../data/team.js'; 
 
 
 const Team = () => {
   return (
     <div className="bg-custom-green mt-10">
-      {/* Header Section */}
+      
+      <img
+          src="/btc_element.png"
+          alt="BTC Background"
+          className="absolute inset-0 top-16 h-52 z-0 inline-block md:h-60 md:top-20"
+        >
+          </img>
       <div
   className="text-white text-left py-20 max-w-5xl mx-auto bg-cover bg-center"
 
@@ -14,7 +20,9 @@ const Team = () => {
   <p className="mt-4 text-l text-left">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </p>
+ 
 </div>
+
 
       {/* Team Sections */}
       {Object.keys(teamData).map((teamKey, index) => (
@@ -52,10 +60,12 @@ const Team = () => {
       ))}
       
       <div className="text-white text-center py-20 max-w-5xl mx-auto">
+      
         <h1 className="text-6xl font-bold">Join us</h1>
         <p className="mt-4 text-l text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
+        
       </div>
     </div>
 
